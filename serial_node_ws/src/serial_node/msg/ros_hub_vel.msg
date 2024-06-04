@@ -1,0 +1,2 @@
+float32 hub_vel1
+float32 hub_vel2

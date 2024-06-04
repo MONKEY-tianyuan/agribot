@@ -1,0 +1,15 @@
+1.catkin_create_pkg
+address problem: cannot find package
+
+___________________________________________________________
+2.add_executable(${PROJECT_NAME}_node src/serial_node.cpp)
+address problem: do not execute cpp document
+______________________________________________________
+
+3. target_link_libraries(${PROJECT_NAME}_node
+   ${catkin_LIBRARIES}
+ )
+ 
+ address problem: undefined "xxx"
+ _____________________________________________________________
+ 
