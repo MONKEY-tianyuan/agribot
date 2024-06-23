@@ -1,0 +1,4 @@
+<launch>
+	<node name="controller_node" pkg="controller" type="pure_pursuit_zigzag2.py" output="screen" ns="controller">
+	</node>
+</launch>
